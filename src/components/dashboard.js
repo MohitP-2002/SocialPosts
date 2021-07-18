@@ -47,7 +47,7 @@ const Dashboard = () => {
                   items.map((elem,ind)=> {
                       return(
                    <div className="show" key={ind}>
-                     <h3 className="user"><span className="userrs">{randomItem}</span><span className="edit" >✎</span>   
+                     <h3 className="user"><span className="userrs">Mohit Periwal</span><span className="edit" >✎</span>   
                      <span className="delete" onClick={() => deleteItem(ind)}>❌</span></h3>     
                      <h5>{elem}</h5>
                      <Like like={elem} key={ind} />
